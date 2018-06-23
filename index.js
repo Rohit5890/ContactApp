@@ -26,7 +26,7 @@ class App extends React.Component {
                    <p><label>Phone:</label> {item.phoneNumber}</p>
                    <p className='contact-status'><label>Status:</label> {item.status}</p>
                    <button onClick={()=>{this.EditContact(key)}}>Edit</button> 
-                   <button onClick={()=>{this.deleteContact(key)}}>delete</button>
+                   <button onClick={()=>{this.deleteContact(key)}}>Delete</button>
                 </div>
             )
         })
