@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background: darkturquoise;
+}
+#root {
+    max-width: 600px;
+    margin: 0 auto;
+}
+button{
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+    background-color: #2ecc71;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 2px;
+}
+ button span{
+     display: none;
+     font-size: 18px;
+     color: rebeccapurple ;
+     position: absolute;
+     top: 53%;
+     left: 46%;
+     width: 200px;
+     border: 3px solid #2ecc71;
+     box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+     z-index: -1;
+     border-radius: 20px;
+     outline: none;
+     transform: translateY(-50%);
+     background: white;
+ }
+button:hover span {
+    display: block;
+ }
+ .submit-btn{
+    width: auto;
+    border-radius: 2px;
+    font-size: 23px;
+    padding: 5px 24px;
+    margin-top: 22px;
+    float: right;
+ }
+ .search-filter{
+    display: block;
+    margin: 10px auto;
+    border: 2px solid blue;
+    padding: 10px 8px;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+ }
+
+ .contacts{
+    margin: 20px;
+    padding: 20px 20px 0;;
+    background: grey;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+ }  
+ .contacts button {
+    border-radius: 4px;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    height: auto;
+    margin: 12px;
+ }

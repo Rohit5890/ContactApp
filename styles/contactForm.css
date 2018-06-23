@@ -1,0 +1,46 @@
+fieldset{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+form {
+    padding: 46px 50px;
+    background: dodgerblue;
+}
+.contact-form{
+    padding: 70px;
+    box-shadow: 0 1px 14px rgba(0, 0, 0, .6);
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    height: vh;
+    top: 0;
+    background: darkslategrey;
+}
+.contact-form input {
+    font-size: 17px;
+    padding: 5px;
+}
+
+.modal-close {
+    position: relative;
+    top: -29px;
+    left: 99%;
+}
+.contact-name {
+    font-size: 25px;
+    color: white;
+    padding: 0 12px 13px;
+}
+.contacts p {
+    padding: 0px 12px;
+    font-size: 20px;
+    color: white;
+}
+.disable .contact-status {
+    background: red;
+    padding: 5px;
+    font-size: 20px;
+}
