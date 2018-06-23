@@ -1,5 +1,5 @@
-# ContactApp
-Edit/Delete/Filter/Add Contacts
+# ContactApp in React
+Edit/Delete/Filter[ with First_Name/ Last_name ]/Add Contacts to Contact List 
 
 # Getting Started
 Follow below commands in sequence to get started
