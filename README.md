@@ -47,8 +47,8 @@ Then open `http://localhost:9000/` to see working demo.
   ![editmodal](https://user-images.githubusercontent.com/11410696/41810350-9c473322-771a-11e8-9293-71c824b4ab53.png)
   
 
-# Authors
-Rohit5890 - Initial work
+# Author
+@Rg
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details
