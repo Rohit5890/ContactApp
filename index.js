@@ -32,7 +32,6 @@ class App extends React.Component {
         })
     }
     addContact(){
-        debugger;
         this.setState({
             editModalOpen: true
         }) 
