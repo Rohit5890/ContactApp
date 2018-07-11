@@ -113,7 +113,6 @@ export default class ContactForm extends React.Component {
         })
     }
     closeModal(){
-        debugger;
         this.props.updateContact(JSON.parse(localStorage.getItem('CONTACTS')));
     }
     render(){
