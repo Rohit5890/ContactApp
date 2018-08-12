@@ -48,7 +48,7 @@ Then open `http://localhost:9000/` to see working demo.
   
 
 # Author
-@Rg
+@Rohit5890
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details
